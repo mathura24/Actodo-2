@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+.container{
+    border: solid rgb(114, 62, 62) 100px;
+}
+
+.process{
+   margin: 51px;
+}
+
+
+
+.header{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border-style: groove;
+    padding: 10px;
+    
+}
+.card{
+    display: flex;
+   margin: 20px;
+    gap: 20px;
+    
+}
+.card-one,.card-two,.card-three{
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.card-one{
+    background-color: rgb(235, 135, 255);
+
+}
+
+.card-two{
+    background-color: rgb(244, 126, 84);
+}
+
+.card-three{
+    background-color: rgb(209, 244, 84);
+}
+
+.todo-container{
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+}
+
+.input{
+    margin-top: 10px;
+
+}
+
+.act{
+    padding: 10px;
+    font-size: medium;
+    width: 215px;
+}
+
+.add{
+    padding: 10px;
+    font-size: medium;
+    background-color: black;
+    color: white;
+}
+
+.today{
+    background-color: rgb(98, 71, 249);
+  padding-top: 10px;
+    width: 600px;
+    text-align:left;
+    
+}
+
+.todoitem{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.Delete{
+    color: white;
+    background-color: rgb(91, 102, 218);
+    padding: 2px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.box{
+    background-color: white;
+    padding: 30px;
+    
+}
+
+.hey{
+    font-size:xx-large;
+    color: black;
+    padding: 4px;
+}
+
+.msg{
+    font-size: large;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+button{
+    background-color: rgb(70, 70, 228);
+    padding: 5px;
+    border-radius: 8px;
+    width: 80px;
+
+}
+
+button:hover{
+    background-color: rgb(23, 23, 209);
+}
+
+.act{
+    padding-top:10px;
+}
+
+
+
+
+
+
+
+
+
